@@ -1,4 +1,4 @@
-package com.example.pop_up
+package com.example.popup
 
 import io.flutter.embedding.android.FlutterActivity
 
