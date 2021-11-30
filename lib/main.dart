@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
     timer?.cancel();
     if (!bubbleOverlay.isOpen)
       bubbleOverlay.openBubble(
-          backgroundColor: "#AAAAAA", middleText: "$value");
+          backgroundColor: "#AAAAAA", middleText: "$value", topIconAsset: "assets/fan.png");
     bubbleOverlay.updateMiddleText("$value");
     this.timer = Timer(Duration(seconds: 2), ()=>{
       if(bubbleOverlay.isOpen)

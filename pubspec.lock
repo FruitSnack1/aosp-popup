@@ -20,7 +20,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: fce851ef0e2f60c344bcff0f265f116ee168b459
+      resolved-ref: fb2ce874d86bde52eee2d8385d15db3ba5a064ac
       url: "https://github.com/FruitSnack1/bubble_overlay"
     source: git
     version: "0.2.0"
